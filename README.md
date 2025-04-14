@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+در ادامه یک فایل README زیبا و حرفه‌ای به زبان فارسی برای پروژه شما آماده کرده‌ام که شامل توضیحات پروژه، ویژگی‌ها، راهنمای نصب، و نمایش تصاویر موجود در پوشه image است. این README به گونه‌ای نوشته شده که هم خوانا باشد و هم برای کاربران جذاب و کاربردی به نظر بیاید.
 
-## Getting Started
+---
 
-First, run the development server:
+# اپلیکیشن آموزشی کوییز (Quiz App)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![تصویر پروژه](image/1.jpg)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**اپلیکیشن کوییز** یک پلتفرم آموزشی جذاب و دو زبانه (فارسی و انگلیسی) است که با استفاده از **Next.js** ساخته شده است. این پروژه با هدف ارائه یک تجربه کاربری ساده و مدرن برای یادگیری و تمرین از طریق کوییزهای تعاملی طراحی شده است. همچنین، سیستم احراز هویت (Authentication) برای مدیریت کاربران پیاده‌سازی شده است.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ویژگی‌ها
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **پشتیبانی از دو زبان**: رابط کاربری به دو زبان فارسی و انگلیسی برای دسترسی کاربران مختلف.
+- **احراز هویت امن**: سیستم ورود و ثبت‌نام کاربران با امنیت بالا.
+- **طراحی پاسخ‌گو (Responsive)**: سازگار با انواع دستگاه‌ها (موبایل، تبلت، و دسکتاپ).
+- **رابط کاربری مدرن**: طراحی زیبا و کاربرپسند با استفاده از آخرین تکنولوژی‌های وب.
+- **ساختار بهینه**: استفاده از **Next.js** برای عملکرد بالا و سئوی بهتر.
 
-## Learn More
+## پیش‌نمایش پروژه
 
-To learn more about Next.js, take a look at the following resources:
+در ادامه تصاویری از رابط کاربری پروژه را مشاهده می‌کنید:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| صفحه اصلی               | کوییز                   | پروفایل کاربر           | احراز هویت              |
+| ----------------------- | ----------------------- | ----------------------- | ----------------------- |
+| ![تصویر 1](image/1.jpg) | ![تصویر 2](image/2.jpg) | ![تصویر 3](image/3.jpg) | ![تصویر 4](image/4.jpg) |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## پیش‌نیازها
 
-## Deploy on Vercel
+قبل از اجرای پروژه، اطمینان حاصل کنید که موارد زیر روی سیستم شما نصب شده باشند:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Node.js** (نسخه 16 یا بالاتر)
+- **npm** یا **yarn**
+- یک ویرایشگر کد مانند **VS Code**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## راهنمای نصب و اجرا
+
+1. **کلون کردن پروژه**:
+
+   ```bash
+   git clone https://github.com/SayyehBan/quiz-app.git
+   ```
+
+2. **ورود به پوشه پروژه**:
+
+   ```bash
+   cd quiz-app
+   ```
+
+3. **نصب وابستگی‌ها**:
+
+   ```bash
+   npm install
+   ```
+
+   یا
+
+   ```bash
+   yarn install
+   ```
+
+4. **اجرای پروژه در حالت توسعه**:
+
+   ```bash
+   npm run dev
+   ```
+
+   یا
+
+   ```bash
+   yarn dev
+   ```
+
+5. **مشاهده پروژه**:
+   مرورگر خود را باز کنید و به آدرس زیر بروید:
+   ```
+   http://localhost:3000
+   ```
+
+## ساختار پروژه
+
+- **`pages/`**: شامل صفحات مختلف پروژه (مانند صفحه اصلی، کوییز، و پروفایل).
+- **`components/`**: کامپوننت‌های قابل استفاده مجدد.
+- **`styles/`**: فایل‌های استایل و CSS.
+- **`image/`**: تصاویر مربوط به پروژه.
+- **`public/`**: فایل‌های عمومی مانند تصاویر و فونت‌ها.
+
+## تکنولوژی‌های استفاده شده
+
+- **Next.js**: فریم‌ورک React برای توسعه وب.
+- **React**: برای ساخت رابط کاربری تعاملی.
+- **CSS Modules / Tailwind CSS** (در صورت استفاده): برای استایل‌دهی.
+- **NextAuth.js** (در صورت استفاده): برای مدیریت احراز هویت.
+
+## مشارکت در پروژه
+
+اگر علاقه‌مند به همکاری در توسعه این پروژه هستید، می‌توانید از طریق ایجاد **Pull Request** یا گزارش **Issue** در گیت‌هاب مشارکت کنید. مراحل مشارکت:
+
+1. پروژه را Fork کنید.
+2. تغییرات خود را اعمال کنید.
+3. یک Pull Request ایجاد کنید.
+
+## تماس با من
+
+برای هرگونه سوال یا پیشنهاد، می‌توانید از طریق ایمیل یا شبکه‌های اجتماعی با من در ارتباط باشید:
+
+- **گیت‌هاب**: [SayyehBan](https://github.com/SayyehBan)
+- **ایمیل**: your-email@example.com (ایمیل خود را جایگزین کنید)
+
+---
+
+**با تشکر از بازدید شما!**  
+امیدوارم این پروژه برای شما مفید باشد. اگر از آن لذت بردید، لطفاً یک ⭐ به پروژه بدهید!
+
+---
+
+این README شامل تمام بخش‌های لازم برای معرفی پروژه، نمایش تصاویر، و راهنمایی کاربران است. اگر نیاز به تغییرات خاصی دارید یا می‌خواهید بخش دیگری اضافه شود، لطفاً اطلاع دهید!
