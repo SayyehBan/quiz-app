@@ -4,7 +4,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "dl.ghorbany.dev",
+                hostname: "ghorbany.dev",
                 port: "",
                 pathname: "/**"
             }

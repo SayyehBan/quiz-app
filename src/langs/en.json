@@ -1,37 +1,42 @@
 {
-    "main": {
-        "appName": "Quiz Application",
-        "appStartBtn": "Start Quiz"
-    },
-    "quiz": {
-        "title": "Quiz App",
-        "quizNum1": "Quiz",
-        "quizNum2": "of",
-        "nextBtn": "Next Question",
-        "finishBtn": "Finish",
-        "result": "Quiz Result",
-        "resultScoreMsg1": "In general",
-        "resultScoreMsg2": "of the questions have been answered",
-        "quizCount": "Number of question",
-        "quizScore": "Total score",
-        "quizCorrect": "Correct questions",
-        "quizWrong": "Wrong questions",
-        "quizRestart": "Restart the quiz 🤞"
-    },
-    "about": {
-        "fullname": "Younes Ghorbany",
-        "info": "Fullstack Developer And Teacher"
-    },
-    "notFound": {
-        "message": "We did not find the page you are looking for 🤗",
-        "backToHome": "Back to home"
-    },
-    "error": {
-        "message": "We have a problem 🙃",
-        "tryAgain": "Try again 🤗"
-    },
-    "underConstruction": {
-        "title": "We are very sorry 🙃",
-        "subTitle": "We are updating, please come back soon 😊"
-    }
+  "main": {
+    "appName": "Quiz Application",
+    "appStartBtn": "Start Quiz",
+    "username": "Username",
+    "password": "Password"
+  },
+  "quiz": {
+    "title": "Quiz App",
+    "quizNum1": "Quiz",
+    "quizNum2": "of",
+    "nextBtn": "Next Question",
+    "finishBtn": "Finish",
+    "result": "Quiz Result",
+    "resultScoreMsg1": "In general",
+    "resultScoreMsg2": "of the questions have been answered",
+    "quizCount": "Number of question",
+    "quizScore": "Total score",
+    "quizCorrect": "Correct questions",
+    "quizWrong": "Wrong questions",
+    "quizRestart": "Restart the quiz 🤞"
+  },
+  "about": {
+    "fullname": "Kourosh Hekamanchi",
+    "info": "Fullstack Developer And Teacher"
+  },
+  "notFound": {
+    "message": "We did not find the page you are looking for 🤗",
+    "backToHome": "Back to home"
+  },
+  "error": {
+    "message": "We have a problem 🙃",
+    "tryAgain": "Try again 🤗"
+  },
+  "underConstruction": {
+    "title": "We are very sorry 🙃",
+    "subTitle": "We are updating, please come back soon 😊"
+  },
+  "login": {
+    "incorrect": "Username or password is incorrect, please try again"
+  }
 }

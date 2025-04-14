@@ -1,38 +1,43 @@
 {
-    "main": {
-        "appName": "اپلیکیشن کوئیز",
-        "appStartBtn": "شروع کوئیز"
-    },
-    "quiz": {
-        "title": "اپلیکیشن کوئیز",
-        "quiz:": "کوئیز",
-        "quizNum1": "کوئیز",
-        "quizNum2": "از",
-        "nextBtn": "سوال بعدی",
-        "finishBtn": "پایان",
-        "result": "نتیجه کوئیز",
-        "resultScoreMsg1": "به طور کلی",
-        "resultScoreMsg2": "سوالات جواب داده شده",
-        "quizCount": "تعداد سوالات",
-        "quizScore": "کل امتیاز",
-        "quizCorrect": "سوالات درست",
-        "quizWrong": "سوالات غلط",
-        "quizRestart": "شروع مجدد کوئیز 🤞"
-    },
-    "about": {
-        "fullname": "یونس قربانی",
-        "info": "برنامه نویس و مدرس"
-    },
-    "notFound": {
-        "message": "صفحه ایی که دنبالش هستی رو پیدا نکردیم 🤗",
-        "backToHome": "برگشت به خانه"
-    },
-    "error": {
-        "message": "مشکلی پیش اومده 🙃",
-        "tryAgain": "دوباره تلاش کن 🤗"
-    },
-    "underConstruction": {
-        "title": "خیلی شرمنده می باشیم 🙃",
-        "message": "در حال بروزرسانی هستیم لطفاً مدتی دیگر مراجعه بفرمایید 😊"
-    }
+  "main": {
+    "appName": "اپلیکیشن کوئیز",
+    "appStartBtn": "شروع کوئیز",
+    "username": "نام کاربری",
+    "password": "رمز عبور"
+  },
+  "quiz": {
+    "title": "اپلیکیشن کوئیز",
+    "quiz:": "کوئیز",
+    "quizNum1": "کوئیز",
+    "quizNum2": "از",
+    "nextBtn": "سوال بعدی",
+    "finishBtn": "پایان",
+    "result": "نتیجه کوئیز",
+    "resultScoreMsg1": "به طور کلی",
+    "resultScoreMsg2": "سوالات جواب داده شده",
+    "quizCount": "تعداد سوالات",
+    "quizScore": "کل امتیاز",
+    "quizCorrect": "سوالات درست",
+    "quizWrong": "سوالات غلط",
+    "quizRestart": "شروع مجدد کوئیز 🤞"
+  },
+  "about": {
+    "fullname": "کوروش هخامنشی",
+    "info": "برنامه نویس و مدرس"
+  },
+  "notFound": {
+    "message": "صفحه ایی که دنبالش هستی رو پیدا نکردیم 🤗",
+    "backToHome": "برگشت به خانه"
+  },
+  "error": {
+    "message": "مشکلی پیش اومده 🙃",
+    "tryAgain": "دوباره تلاش کن 🤗"
+  },
+  "underConstruction": {
+    "title": "خیلی شرمنده می باشیم 🙃",
+    "message": "در حال بروزرسانی هستیم لطفاً مدتی دیگر مراجعه بفرمایید 😊"
+  },
+  "login": {
+    "incorrect": "نام کاربری یا کلمه عبور اشتباه می باشد دلبندم"
+  }
 }

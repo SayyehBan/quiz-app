@@ -6,7 +6,7 @@ export default async function About({ params }) {
     const dict = await getLangs(params.lang);
 
     const photo =
-        "https://ghorbany.dev/static/media/avatar.ec0231db6078aebd81c7.jpg";
+        "https://ghorbany.dev/wp-content/uploads/2024/06/For-Site2.jpg";
 
     return (
         <main className="p-5 mt-2 bg-gray-50 dark:bg-gray-800 shadow-lg dark:shadow-dark rounded mx-auto w-7/12 ">

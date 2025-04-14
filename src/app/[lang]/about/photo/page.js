@@ -2,7 +2,7 @@ import Frame from "@/src/components/modal/Frame";
 
 export default function PhotoPage() {
     const photo =
-        "https://ghorbany.dev/static/media/avatar.ec0231db6078aebd81c7.jpg";
+        "https://ghorbany.dev/wp-content/uploads/2024/06/For-Site2.jpg";
 
     return (
         <div className="container mx-auto my-10">
