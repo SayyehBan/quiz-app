@@ -132,7 +132,7 @@ export default function RegisterPage() {
                             <p className="text-sm font-light text-gray-500 dark:text-gray-400">
                                 اکانت داری ؟{" "}
                                 <Link
-                                    href="/auth/login"
+                                    href="fa-ir/auth/login"
                                     className="font-medium text-primary-600 hover:underline dark:text-primary-500"
                                 >
                                     وارد شو

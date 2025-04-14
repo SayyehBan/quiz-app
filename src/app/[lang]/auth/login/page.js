@@ -8,8 +8,8 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 
 import GithubImage from "@/src/assets/github-white.svg";
-
 export default async function LoginPage() {
+
     const router = useRouter();
     const [error, setError] = useState("");
 
@@ -17,7 +17,7 @@ export default async function LoginPage() {
     const password = useRef("");
 
     const searchParams = useSearchParams();
-    const callbackUrl = searchParams.get("callbackUrl") || "/quiz";
+    const callbackUrl = searchParams.get("callbackUrl") || "fa-ir/quiz";
 
     const onSubmit = async (e) => {
         e.preventDefault();
@@ -112,7 +112,7 @@ export default async function LoginPage() {
                                 <p className="text-sm font-light text-gray-500 dark:text-gray-400">
                                     اکانت نداری ؟{" "}
                                     <Link
-                                        href="/auth/register"
+                                        href="fa-ir/auth/register"
                                         className="font-medium text-primary-600 hover:underline dark:text-primary-500"
                                     >
                                         ثبت نام کن
@@ -123,7 +123,7 @@ export default async function LoginPage() {
                                 type="button"
                                 className="px-7 py-2 text-white text-sm rounded bg-gray-600 shadow-md hover:shadow-lg w-full flex justify-center items-center"
                                 onClick={() =>
-                                    signIn("github", { callbackUrl: "/quiz" })
+                                    signIn("github", { callbackUrl: "fa-ir/quiz" })
                                 }
                             >
                                 ورود با گیت هاب{" "}

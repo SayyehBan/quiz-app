@@ -43,7 +43,7 @@ export const options = {
         }),
     ],
     pages: {
-        signIn: "en-us/auth/login",
-        signOut: "en-us/auth/signout",
+        signIn: "/auth/login",
+        signOut: "/auth/signout",
     },
 };
